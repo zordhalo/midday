@@ -13,9 +13,11 @@
     "@supabase/postgrest-js": "^1.19.4",
     "@supabase/ssr": "^0.6.1",
     "date-fns": "^4.1.0",
-    "react": "19.1.0",
     "server-only": "^0.0.1",
     "supabase": "^2.24.3"
+  },
+  "peerDependencies": {
+    "react": ">=18.3.0 <20.0.0"
   },
   "devDependencies": {
     "@supabase/supabase-js": "^2.50.0",

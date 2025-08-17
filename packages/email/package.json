@@ -27,6 +27,10 @@
     "react-email": "4.0.16",
     "responsive-react-email": "^0.0.5"
   },
+  "peerDependencies": {
+    "react": ">=18.3.0 <20.0.0",
+    "react-dom": ">=18.3.0 <20.0.0"
+  },
   "devDependencies": {
     "typescript": "^5.9.2"
   }
