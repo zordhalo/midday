@@ -1,7 +1,7 @@
-import { defineConfig } from "@trigger.dev/sdk";
+import { defineConfig } from "@trigger.dev/sdk/v3";
 
 export default defineConfig({
-  project: process.env.TRIGGER_PROJECT_ID!,
+  project: "proj_ajkfujnvnedxkgvawqeb", // Use the same project ID as the root config
   runtime: "node",
   logLevel: "log",
   maxDuration: 60,
